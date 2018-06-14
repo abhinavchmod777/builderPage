@@ -1,0 +1,81 @@
+body{
+	background-image: url("images/bg5.jpg");
+	background-size: contain;
+	color:white !important;
+	margin-bottom: ;
+}
+.nav1{
+	background-color: #ffcc01;
+}
+.nav1 .navbar-nav .nav-link,.nav1 .navbar-brand{
+	color:#000000;
+}
+.nav2{
+	background-color: rgba(0,0,0,0.1);
+	background-size: contain; 
+}
+.nav2 .navbar-nav .nav-link{
+	padding-left:3rem !important; 
+	padding-right:3rem !important;
+	font-weight: bolder;
+	color:black;
+}
+
+.about{
+	background-image: url("images/bg1.jpg");
+
+}
+.login{
+	background-image: url("images/bg3.jpg"),linear-gradient(  rgba(0,0,0,0) 0%,rgba(255,255,255,1) 80%);
+}
+.register {
+	background-image: url("images/2917.jpg"),linear-gradient(to bottom,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 80%);
+}
+.login,.register,.about{
+	width:90% !important;
+	color:white;
+	background-size:cover;
+	background-repeat: no-repeat;
+	margin-top:4%;
+	margin-bottom:4%;
+	height:750px;
+	border-radius:.5rem;
+	box-shadow: 3px;
+}
+.card{
+	color:white;
+	border:0px;
+	background-color: rgba(0,0,0,0);
+}
+.logincontent,.registercontent{
+	margin-top:10%;
+	background-color: rgba(0,0,0,0.4);
+	padding:30px;
+	border-radius:10px;
+}
+.rowhead{
+	margin-bottom:20px;
+	padding-bottom: 20px;
+	border-bottom:1px black;
+}
+label{
+	color:White;
+}
+
+@media(max-width:576px)
+{
+	.about{
+		background-color: rgba(0,0,0,0.4) !important;
+	}
+	.login,.register,.about{
+		height:auto;
+		padding:bottom:10%;
+		background-size: contain;
+		background: none;
+	}
+	body{
+		background-image: url("images/810.jpg");
+	}
+
+
+}
